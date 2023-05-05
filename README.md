@@ -41,7 +41,7 @@ Two sets of data are provided for this project. One of the the datasets includes
       
       clean_df.groupby(["Drug Regimen"]).agg(["mean","median","var","std","sem"])["Tumor Volume (mm3)"]
 
-### Step 2: Visualizations
+### Step 3: Visualizations
 - Generate a bar plot showing the total number of rows (Mouse ID/Timepoints) for each drug regimen using pyplot. 
 
       drug_count = clean_df["Drug Regimen"].value_counts()
