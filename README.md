@@ -26,7 +26,7 @@ Two sets of data are provided for this project. One of the the datasets includes
   Combine the data into a single DataFrame
   
       combined_df = pd.merge(mouse_metadata, study_results, on = 'Mouse ID', how ='outer' )
-
+### Step 2: Cleaning the data 
 - Our data should be uniquely identified by Mouse ID and Timepoint. To be sure there are no duplicates, I checked for any duplicates using these unique IDs i.e., Mouse ID and Timepoint.  
       
       duplicate_mouse_ID = combined_df.loc[combined_df.duplicated(subset = ['Timepoint','Mouse ID']), 'Mouse ID'].unique()
@@ -36,12 +36,12 @@ Two sets of data are provided for this project. One of the the datasets includes
 
       clean_df = combined_df.loc[combined_df['Mouse ID'] != 'g989', :]
 
-### Step 2: Summary Statistics
+### Step 3: Summary Statistics
 - I generated a summary statistics table of mean, median, variance, standard deviation, and SEM of the tumor volume for each drug regimen. The aggregation function made this easy.
       
       clean_df.groupby(["Drug Regimen"]).agg(["mean","median","var","std","sem"])["Tumor Volume (mm3)"]
 
-### Step 3: Visualizations
+### Step 4: Visualizations
 - Generate a bar plot showing the total number of rows (Mouse ID/Timepoints) for each drug regimen using pyplot. 
 
       drug_count = clean_df["Drug Regimen"].value_counts()
