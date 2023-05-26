@@ -1,7 +1,7 @@
-## Description
+## Overview
 In a laboratory study, 249 mice who were identified with SCC tumors received treatment with a range of drug regimens. Over the course of 45 days, tumor development was observed and measured. The purpose of this project was to compare the performance of Pymaceuticals’ drug of interest, Capomulin, against the other treatment regimens. I then generated all of the tables and figures needed for the technical report of the clinical study as well as provided a top-level summary of the study results.
 
-## Dependencies used
+## Dependencies
 <img width="120" src = https://user-images.githubusercontent.com/107348074/236379504-0f0e8534-6435-4924-b72d-283946e03c4b.png>
 <img width="120" src = https://user-images.githubusercontent.com/107348074/236379877-e0e3b90e-217f-4700-ade2-df8b5ef8f23b.png>
 <img width="120" src =https://user-images.githubusercontent.com/107348074/236379730-0286f397-c9e0-4e0c-a91c-e07d64f6ceec.png>
