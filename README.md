@@ -57,7 +57,7 @@ Two sets of data are provided for this project. One of the the datasets includes
 
       plt.show()
       
-    <img width  = "350" src =https://user-images.githubusercontent.com/107348074/236381933-6c8375cc-00fc-4f70-a3e7-98c6eed9f780.png>
+    <img width  = "500" src =https://user-images.githubusercontent.com/107348074/236381933-6c8375cc-00fc-4f70-a3e7-98c6eed9f780.png>
    
 - Generate a box plot that shows the distrubution of the tumor volume for each treatment group.  
       
@@ -68,7 +68,7 @@ Two sets of data are provided for this project. One of the the datasets includes
       ax1.set_ylabel('Final Tumor Volume (mm3)')
       ax1.set_xlabel('Drug Regimen')
       plt.show()
-    <img width  = "350" src =https://user-images.githubusercontent.com/107348074/236382918-97b88038-0a61-4143-a108-dc311a03cb55.png>
+    <img width  = "500" src =https://user-images.githubusercontent.com/107348074/236382918-97b88038-0a61-4143-a108-dc311a03cb55.png>
 
 - Calculate the correlation coefficient and a linear regression model for mouse weight and average observed tumor volume for the entire Capomulin regimen.  
 
@@ -94,7 +94,7 @@ Two sets of data are provided for this project. One of the the datasets includes
       plt.xlabel('Average tumor volume', size =16)
       plt.ylabel('Mouse Weight (g)', size =16)
       plt.show()
-    <img width  = "350" src =https://user-images.githubusercontent.com/107348074/236382973-b90e0855-8b5c-424e-ad40-bff8ccb04224.png>  
+    <img width  = "500" src =https://user-images.githubusercontent.com/107348074/236382973-b90e0855-8b5c-424e-ad40-bff8ccb04224.png>  
 ## Summary of Results 
 - Firstly, Capomulin, our drug of interest, and Ramicane had higher number application per mice compared to Infubinol and Ceftamin. Propriva was administered the least per mice. Further, boxplot analysis showed that both Capomulin and Ramicane regimens had the most effect on the mice tumor volume and were not statistically different from each other (pvalue = 0.769).  
 - Secondly, There is a strong positive correlation (0.84) between the mouse weight and the average tumor volume for the entire Capomulin regimen. This correlation seemed to suggest that for every average tumor decline in mouse, there was an accompanied weight loss and vice versa. The pie chart revealed gender distribution was even.  
